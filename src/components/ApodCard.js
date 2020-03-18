@@ -7,7 +7,7 @@ import Apod from "./APOD";
 
 const ImgCard = (props) => {
     return (
-        <div>
+        <div className="card-container">
             <h1>{props.title}</h1>
             <img src={props.imgUrl} alt={props.title} />
             <h3>{props.date}</h3>

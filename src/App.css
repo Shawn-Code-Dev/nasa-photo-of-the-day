@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+img {
+  border-radius: 100%;
+  max-width: 100%;
+}
+
+.card-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 2px solid grey;
+  padding: 2rem;
+}
+
+.card-container p {
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 4rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
